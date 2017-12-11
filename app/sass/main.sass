@@ -1,0 +1,238 @@
+@import "../libs/bootstrap.min"
+@import "landing-page"
+@import "../libs/animate"
+
+*
+	::selection
+		background: #25d366
+
+.intro-message
+	p
+		font-size: 1.2rem
+
+.top-contact
+	position: fixed
+	left: 0
+	top: -50px
+	right: 0
+	z-index: 5
+	background: #ccc
+	animation: top-contact-show .5s ease 1.5s forwards
+	a
+		width: 100%
+		text-align: center
+		padding: 10px
+		color: #fff
+		text-decoration: none
+	img
+		height: 30px
+	.wrap-flex
+		display: flex
+		a
+			transition: all .3s
+			&:nth-child(1)
+				background: #45668e
+				&:hover
+					background: darken(#45668e, 5%)
+				&:active
+					background: darken(#45668e, 10%)
+			&:nth-child(2)
+				background: #0088cc
+				&:hover
+					background: darken(#0088cc, 5%)
+				&:active
+					background: darken(#0088cc, 10%)
+			&:nth-child(3)
+				background: #25d366
+				&:hover
+					background: darken(#25d366, 5%)
+				&:active
+					background: darken(#25d366, 10%)
+			&:nth-child(4)
+				background: #59267c
+				&:hover
+					background: darken(#59267c, 5%)
+				&:active
+					background: darken(#59267c, 10%)
+			&:nth-child(5)
+				background: #ff6c5f
+				&:hover
+					background: darken(#ff6c5f, 5%)
+				&:active
+					background: darken(#ff6c5f, 10%)
+
+@keyframes top-contact-show
+	from
+		top: -50px
+	to
+		top: 0
+
+// iphone on of start
+.iphone-on-off
+	.wrapper
+		font-size: 5px
+		max-width: 800px
+		margin: 0 auto
+
+	.iphone
+		position: relative
+		background: #202020
+		width: 45%
+		height: 0
+		padding-top: 95%
+		margin: 0 auto
+		border-radius: 3em
+
+	.power
+		position: absolute
+		background: #202020
+		width: 13%
+		height: .5%
+		top: -.5%
+		right: 12%
+		border-top-left-radius: .5em
+		border-top-right-radius: .5em
+
+	.lock
+		position: absolute
+		background: #202020
+		width: 1%
+		height: 5%
+		top: 12.5%
+		left: -1%
+		border-top-left-radius: .5em
+		border-bottom-left-radius: .5em
+
+	.volume
+		position: absolute
+		background: #202020
+		width: 1%
+		height: 4%
+		top: 23%
+		left: -1%
+		border-top-left-radius: .5em
+		border-bottom-left-radius: .5em
+		&.down
+			top: 31%
+
+	.camera
+		position: absolute
+		top: 4%
+		left: 48.5%
+		background: #3f3f3f
+		width: 3%
+		height: 0
+		padding-top: 3%
+		border-radius: 50%
+
+	.speaker
+		position: absolute
+		top: 7%
+		left: 42.5%
+		background: #3f3f3f
+		width: 15%
+		height: 0
+		padding-top: 3%
+		border-radius: 1em
+
+	.appleicon
+		padding-top: 35%
+		padding-bottom: 55%
+		opacity: 0
+		animation: unhide 2s infinite alternate
+		text-align: center
+		img
+			width: 35%
+			height: 35%
+
+	.text
+		opacity: 0
+		font-size: 1.25rem
+		text-align: center
+		animation: unhide 2s infinite alternate
+
+	.screen
+		background: #2f2f2f
+		width: 90%
+		height: 75%
+		position: absolute
+		top: 12.5%
+		left: 5%
+		animation: lighten 2s infinite alternate
+
+	.button
+		position: absolute
+		bottom: 2.75%
+		left: 42.5%
+		background: #3f3f3f
+		width: 15%
+		height: 0
+		padding-top: 15%
+		border-radius: 50%
+
+	.square
+		position: absolute
+		top: 27.5%
+		left: 27.5%
+		border: 2px solid #d7d7d7
+		border-radius: .3em
+		width: 45%
+		height: 45%
+
+	@media screen and (min-width: 28em)
+		body
+			font-size: 8px
+
+	@media screen and (min-width: 34em)
+		body
+			font-size: 10px
+
+	@media screen and (min-width: 48em)
+		body
+			font-size: 14px
+
+	@keyframes lighten
+		0%, 45%
+			background: #2f2f2f
+
+		65%, 100%
+			background: #f7f7f7
+
+
+	@keyframes unhide
+		0%, 55%
+			opacity: 0
+
+		75%, 100%
+			opacity: 1
+// iphone on off end
+
+.section-price
+	text-align: center
+	.price
+		margin: .7rem 0
+	p
+		font-weight: normal
+	img
+		height: 150px
+		width: auto
+	.text-about
+		margin: 1rem 0 0
+		font-weight: 400
+		font-size: .8rem
+		text-align: left
+
+img,
+.iphone
+	transition: all .5s
+	&:hover
+		transform: scale(1.1)
+
+.main-foot
+	padding: 20px 0
+	background: #222
+	color: #fff
+	font-weight: normal
+	
+		
+@import "media" // Всегда в конце
