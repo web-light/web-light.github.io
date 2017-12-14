@@ -1,4 +1,4 @@
-Host: https://web-light.github.io/
-Sitemap: https://web-light.github.io/sitemap.xml
+Host: https://www.webs.com.ru/
+Sitemap: https://www.webs.com.ru/sitemap.xml
 
 # my phone +380675680230
