@@ -13,7 +13,7 @@ body, h1, h2, h3, h4, h5, h6 {
   align-items: center;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center #334249;
+  background: url(../img/intro-bg.jpg) no-repeat center center #000;
   background-size: cover;
   min-height: 100vh;
 }
