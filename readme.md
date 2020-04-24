@@ -4,7 +4,9 @@
 
 <h2>Наши контакты</h2>
 <ul>
-	<li><a href="tel:+380675680230">+380675680230</a></li>
-	<li><a href="viber://chat?number=+380675680230">Viber</a></li>
-	<li><a href="//api.whatsapp.com/send?phone=380675680230&amp;text=Привет">What's App</a></li>
+	<li><a href="//vk.com/id360475051" target="_blank" title="Вконтакте">Вконтакте</a></li>
+	<li><a href="//t.me/osnova2021" target="_blank" title="Telegram">Telegram</a></li>
+	<li><a href="//api.whatsapp.com/send?phone=380995591863&text=Привет" target="_blank" title="WhatsApp">WhatsApp</a></li>
+	<li><a href="viber://chat?number=%2B380995591863" target="_blank" title="Viber">Viber</a></li>
+	<li><a class="phone" href="tel:+380995591863" title="Позвонить">+380995591863</a></li>
 </ul>
